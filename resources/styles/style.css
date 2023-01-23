@@ -8,11 +8,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+/* TESTING PURPOSES */
+/* outline: 1px solid rgb(0, 0, 0); */
 }
 
 body {
   font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+
 }
+
 
 
 
@@ -30,8 +37,48 @@ body {
 
 /* ------------------------------ Navbar ------------------------------ */
 
-/* Your CSS code goes here */
+nav {
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: #f2f4fc;
+  margin: 50px auto;
+}
 
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul li a{
+  margin: 0 1rem 0 0;
+  text-decoration: none!important;
+  color: #6c718b;
+  font-weight: 500;
+  font-size: 1.05rem;
+  margin: 0 14px 0 14px;
+
+}
+
+nav ul li a:hover{
+  color: #2f98f4;
+}
+
+nav button {
+  background: #282cca;
+  color: white;
+  padding: 15px;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+nav button:hover {
+  background-color: #292e47;
+}
 /* ------------------------------ Header ------------------------------ */
 
 /* Your CSS code goes here */
