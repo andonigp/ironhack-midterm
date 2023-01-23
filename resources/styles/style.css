@@ -11,7 +11,7 @@
 
 
 /* TESTING PURPOSES */
-outline: 1px solid rgb(0, 0, 0);
+/* outline: 1px solid rgb(0, 0, 0); */
 }
 
 body {
@@ -62,12 +62,12 @@ nav ul li a{
   font-weight: 500;
   font-size: 1.05rem;
   margin: 0 14px 0 14px;
-
 }
 
 nav ul li a:hover{
   color: #2f98f4;
 }
+
 
 .contactBtn {
   background-color: #282cca;
@@ -93,7 +93,7 @@ nav ul li a:hover{
 
 .header {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   width: 80vw;
   margin: auto;
@@ -101,32 +101,102 @@ nav ul li a:hover{
 
 .header div {
   width: 46%;
-  background-color: #2f98f4;
+  /* background-color: #2f98f4;
   margin-right: auto;
   margin-left: auto;
-  align-items: center;
+  align-items: center; */
 }
 
-.header h1 {
+#headerTXT {
+  max-width: 530px;
+  margin-right: 88px;
+  /* background-color: #2f98f4; */
+}
+
+#headerTXT h1 {
   font-size: 60px;
+  line-height: 130%;
   color: #292E47;
 }
 
-.header p {
+#headerTXT p {
+  max-width: 435px;
   font-size: 20px;
   font-weight: 400;
   line-height: 150%;
   margin: 30px 0 50px 0;
   color: #6B708D;
+  margin-bottom: 40px;
 }
 
-.header img {
+#headerTXT div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: row;
+}
+
+.textLink a {
+  margin: 0 1rem 0 0;
+  text-decoration: none!important;
+  color: #6c718b;
+  font-weight: 500;
+  font-size: 1.05rem;
+  margin: 0 14px 0 14px;
+}
+
+.btnLink {
+  background-color: #282cca;
+  padding: 15px;
+  width: 145px;
+  border-color: #f2f4fc;
+}
+
+.btnLink a {
+  text-decoration: none!important;
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.btnLink:hover {
+  background-color: #292e47;
+}
+
+#headerIMG {
   position: relative;
+  size: 80%;
 }
 
 .header-img-person {
   width: 100%;
+  vertical-align: middle;
+  display: inline-block;
 }
+
+.header-A {
+  position: absolute;
+  max-width: 55%;
+  left: -20%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
+}
+
+.header-B {
+  position: absolute;
+  max-width: 55%;
+  bottom: -20%;
+  right: -20%;
+  top: auto;
+  left: auto;
+}
+
+
+
 
 /* ------------------------------ Partners ------------------------------ */
 
