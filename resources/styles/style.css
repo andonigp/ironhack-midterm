@@ -9,14 +9,16 @@
   padding: 0;
   box-sizing: border-box;
 
+
 /* TESTING PURPOSES */
-/* outline: 1px solid rgb(0, 0, 0); */
+outline: 1px solid rgb(0, 0, 0);
 }
 
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 200;
+  background-color: #f2f4fc;
 
 }
 
@@ -43,8 +45,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  background: #f2f4fc;
-  margin: 50px auto;
+  margin: 60px auto;
 }
 
 nav ul {
@@ -68,20 +69,64 @@ nav ul li a:hover{
   color: #2f98f4;
 }
 
-nav button {
-  background: #282cca;
-  color: white;
+.contactBtn {
+  background-color: #282cca;
   padding: 15px;
-  font-weight: 500;
-  font-size: 1rem;
+  width: 145px;
+  border-color: #f2f4fc;
+  
 }
 
-nav button:hover {
+.contactBtn a {
+  text-decoration: none!important;
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.contactBtn:hover {
   background-color: #292e47;
 }
 /* ------------------------------ Header ------------------------------ */
 
-/* Your CSS code goes here */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  margin: auto;
+}
+
+.header div {
+  width: 46%;
+  background-color: #2f98f4;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 60px;
+  color: #292E47;
+}
+
+.header p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 30px 0 50px 0;
+  color: #6B708D;
+}
+
+.header img {
+  position: relative;
+}
+
+.header-img-person {
+  width: 100%;
+}
 
 /* ------------------------------ Partners ------------------------------ */
 
