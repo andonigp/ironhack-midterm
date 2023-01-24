@@ -17,9 +17,9 @@ outline: 1px solid rgb(0, 0, 0);
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 200;
+  font-weight: 300;
   background-color: #f2f4fc;
-
+  color: #292e47
 }
 
 
@@ -207,10 +207,8 @@ nav ul li a:hover{
 /* ------------------------------ Partners ------------------------------ */
 .banner {
   width: 80vw;
-  /* margin-top: 100px; */
-  margin: 100px auto 0;
   max-width: 1063px;
-  /* margin: auto; */
+  margin: auto;
 }
 
 .bannerCompanies {
@@ -218,12 +216,23 @@ nav ul li a:hover{
   justify-content: row;
   align-items: center;
   padding: 30px;
+  animation: scrolling 20s linear infinite;
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-140vw);
+  }
 }
 
 .imgCompanies {
   filter: grayscale(1);
   width: 10rem;
-  margin-left:45px;
+  margin-left:200px;
+  
 }
 
 .imgCompanies:hover {
@@ -248,14 +257,28 @@ nav ul li a:hover{
   background-color: white;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-
+  justify-content: space-between;
+  max-width: 337px;
+  height: 523px;
 }
 
-.projectIMG img {
+.projectElement h3 {
+  margin: 25px;
+}
+
+.projectElement p {
+  margin: 0 25px 25px 25px;
+}
+
+.projectElement a {
+  color:#072AC8;
+  text-decoration: none!important;
+  margin: 0 25px 25px 25px;
+}
+
+.projectIMG {
   height: 240px;
-  /* width: 240px; */
-  /* width: 100%; */
+  width: 100%; 
 }
 /* ------------------------------ Client reviews ------------------------------ */
 
@@ -263,7 +286,7 @@ nav ul li a:hover{
   /* width: 80vw;
   margin: 80px auto; */
   max-width: 1215px;
-  margin-top: 200px;
+  margin-top: 100px;
   margin-right: auto;
   margin-left: auto;
   background-color: #292e47;
@@ -353,36 +376,46 @@ nav ul li a:hover{
   width: 80vw;
   max-width: 1063px;
   margin: auto;
+  margin-bottom: 25px;
 }
 
 .allServices {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 50px;
 }
 
 .serviceElement {
-  width: 30%;
   background-color: white;
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  justify-content: space-between; */
+  justify-content: space-between;
+  max-width: 337px;
+  height: 322px;
 }
 
 .serviceElement h3 {
-  margin: 25 px;
   font-size: 1.3rem;
   text-align: center;
+  margin: 25px;
+}
+
+.serviceElement p {
+  margin: 0 25px 25px 25px;
+}
+.serviceElement a {
+  color:#072AC8;
+  text-decoration: none!important;
+  margin: 0 25px 25px 25px;
 }
 
 .serviceElement img {
-  width: 46%;
-  height: 46%;
-  
-  border-radius: 100px;
-  margin: 34px 0 0 34px;
+  width: 80px;
+  margin: 25px 0px 0px 25px;
+  /* border-radius: 80px; */
   background-color: #ecf6ff;
+  background-size: 100px;
 }
 
 /* ------------------------------ Questions form ------------------------------ */
@@ -390,12 +423,12 @@ nav ul li a:hover{
 #questions {
   background-color: #ffc600;
   height: 400px;
-  margin-top: 150px;
+  /* margin-top: 150px; */
   max-width: 1215px;
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   margin: auto;
 }
@@ -403,6 +436,8 @@ nav ul li a:hover{
 #questions h2 {
   color: black;
   font-size: 40px;
+  margin: 0px 0px 15px 0px;
+
 }
 
 #question p {
@@ -455,6 +490,11 @@ nav ul li a:hover{
   font-weight: 400;
   color: #072AC8;
   text-decoration: none!important;
+}
+
+.footerCircle img {
+  width: 100px;
+  margin-bottom: 20px;
 }
 
 /* ------------------------------ Back to Top ------------------------------ */
