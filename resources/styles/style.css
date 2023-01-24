@@ -162,6 +162,10 @@ nav ul li a:hover{
   justify-content: center;
 }
 
+.textLink a:hover {
+  color: #2f98f4;
+}
+
 .btnLink:hover {
   background-color: #292e47;
 }
@@ -220,9 +224,21 @@ nav ul li a:hover{
 }
 
 /* ------------------------------ Recent projects ------------------------------ */
+.recentProjects {
+  width: 80vw;
+  margin: 80px auto;
+}
 
-/* Your CSS code goes here */
+.recentProjects h2 {
+  font-size: 50px;
+  color: #514D67;
+}
 
+.recentProjectsTestimonials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 /* ------------------------------ Client reviews ------------------------------ */
 
 /* Your CSS code goes here */
