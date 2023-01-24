@@ -11,7 +11,7 @@
 
 
 /* TESTING PURPOSES */
-outline: 1px solid rgb(0, 0, 0);
+/* outline: 1px solid rgb(0, 0, 0); */
 }
 
 body {
@@ -36,6 +36,13 @@ h2 {
   font-size: 50px;
   color: #514D67;
   margin: 100px 0 75px 0;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 130%;
+  color: #292E47;
+  max-width: 530px;
 }
 
 
@@ -525,6 +532,69 @@ nav ul li a:hover{
 /* ----------------------------------------------------------------------------- */
 /* ------------------------------ CONTACT-US html ------------------------------ */
 /* ----------------------------------------------------------------------------- */
+.contactBody {
+  width: 80vw;
+  margin: auto;
+  max-width: 1063px;
+}
+
+.contactTitle {
+  padding-bottom: 75px;
+}
+
+.contactForm form {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.contactForm label {
+  margin-bottom: 10px;
+  font-weight: 400;
+  color: #6B708D;
+  font-size: 18px;
+}
+
+.contactFormInput {
+  background-color: #e4e6f0;
+  height: 75px;
+  font-size: 16px;
+  border: none;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+
+.contactFormSection2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contactFormMessage {
+  background-color: #e4e6f0;
+  height: 225px;
+  font-size: 16px;
+  border: none;
+  font-weight: 400;
+  font-size: 18px;
+  padding-left: 10px;
+  margin-bottom: 25px;
+}
+
+.contactFormSection2 div {
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactFormButton {
+  height: 75px;
+  background-color: #282cca;
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+}
 
 /* ------------------------------ Form ------------------------------ */
 
