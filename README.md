@@ -119,6 +119,11 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 ###### Martes 24, Enero 2023
 
+- [x] Creación del heroSection (HTML / CSS)
+- [x] Estructura de páginas secundarias.
+- [x] Index completado para widescreen.
+- [x] Creación de formulario de contacto.
+
 #### Day Three
 
 ###### Miercoles 25, Enero 2023
