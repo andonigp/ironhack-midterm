@@ -29,6 +29,15 @@ body {
 /* ------------------------------ INDEX html ------------------------------ */
 /* ------------------------------------------------------------------------ */
 
+
+
+/* ------------------------------ General ------------------------------ */
+h2 {
+  font-size: 50px;
+  color: #514D67;
+}
+
+
 /* ------------------------------ Splash page ------------------------------ */
 
 /* Your CSS code goes here */
@@ -229,11 +238,6 @@ nav ul li a:hover{
   margin: 80px auto;
 }
 
-.recentProjects h2 {
-  font-size: 50px;
-  color: #514D67;
-}
-
 .recentProjectsTestimonials {
   display: flex;
   justify-content: space-between;
@@ -241,11 +245,19 @@ nav ul li a:hover{
 }
 /* ------------------------------ Client reviews ------------------------------ */
 
-/* Your CSS code goes here */
+.clientReview {
+  width: 80vw;
+  margin: 80px auto;
+  background-image: url("/IronHack-MidTerm/ironhack-midterm/resources/images/testimonial-section/orbit.png");
+}
+
 
 /* ------------------------------ Services ------------------------------ */
 
-/* Your CSS code goes here */
+.ourServices {
+  width: 80vw;
+  margin: 80px auto;
+}
 
 /* ------------------------------ Questions form ------------------------------ */
 

@@ -108,10 +108,12 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 ###### Lunes 23, Enero 2023
 
-- [ ] Tarea no completada
-- [x] Tarea Completada
-- [ ] Ej - Crear section "projects" en html
-- [x] Ej - Crear section "projects" en html
+- [x] Creación y configuración del git.
+- [x] Análisis de estructura del sitio.
+- [x] Esqueleto HTML del sitio.
+- [x] Creación del navBar (HTML / CSS)
+- [ ] Creación del heroSection (HTML / CSS)
+- [x] Banner de logos. Falta animación (HTML / CSS)
 
 #### Day Two
 
