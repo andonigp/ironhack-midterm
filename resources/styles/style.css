@@ -818,6 +818,10 @@ nav ul li a:hover{
     margin: auto;
   }
 
+  #suscribeINPT {
+    margin-bottom: 10px;
+  }
+
 
   /* ------------------------------ Footer ------------------------------ */
 .footer {
