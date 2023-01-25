@@ -7,4 +7,13 @@ hamburguer.addEventListener("click", () => {
     hamburguer.classList.toggle("active");
     navMenu.classList.toggle("active");
 })
-console.log(navMenu)
+
+
+const scrollTop = document.querySelector(".backTop")
+function backTop () {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth", 
+    }
+)} 
+scrollTop.addEventListener("click", backTop)

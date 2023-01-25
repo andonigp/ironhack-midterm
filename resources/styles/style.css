@@ -548,6 +548,9 @@ nav ul li a:hover{
 /* ----------------------------------------------------------------------------- */
 /* ------------------------------ CONTACT-US html ------------------------------ */
 /* ----------------------------------------------------------------------------- */
+
+/* ------------------------------ Form ------------------------------ */
+
 .contactBody {
   width: 80vw;
   margin: auto;
@@ -612,9 +615,28 @@ nav ul li a:hover{
   font-size: 18px;
 }
 
-/* ------------------------------ Form ------------------------------ */
+#suscriptionAccepted.active {
+  width: 100%;
+  background-color: rgb(79, 226, 79);
+  color: white;
+  font-size: 20px;
+  text-align: Center;
+  top: 0;
+  padding: 20px;
+  height: 60px;
+}
 
-/* Your CSS code goes here */
+#suscriptionAccepted h3 {
+  display: none;
+}
+
+#suscriptionAccepted.active h3{
+  display: block;
+  color: black;
+  font-size: 15px;
+  font-weight: 200;
+}
+
 
 /* ----------------------------------------------------------------------------- */
 /* ------------------------------ About html ------------------------------ */
@@ -922,6 +944,12 @@ nav ul li a:hover{
 
   nav ul.active a {
     color: white;
+    font-weight: 800;
+    font-size: 30px;
+  }
+
+  nav ul.active a:hover {
+    color: #292E47;
     font-weight: 800;
     font-size: 30px;
   }
