@@ -805,7 +805,21 @@ nav ul li a:hover{
     text-align: start;
     margin: 25px;
   }
-/* ------------------------------ Footer ------------------------------ */
+  /* ------------------------------ Footer ------------------------------ */
+  #questions {
+    background-color: #ffc600;
+    height: 500px;
+    max-width: 100%px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+  }
+
+
+  /* ------------------------------ Footer ------------------------------ */
 .footer {
   display: flex;
   flex-direction: column;
