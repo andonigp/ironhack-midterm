@@ -617,7 +617,217 @@ nav ul li a:hover{
 
 /* ------------------------- Smaller than 766px (mobile) ------------------------- */
 @media (max-width: 766px) {
-  /* Your CSS code goes here */
+
+
+  /* ------------------------------ Navbar ------------------------------ */
+  nav {
+    height: 75px;
+    margin: 0 0 15px 0;
+    padding: 0 35px 15px 35px;
+    width: 100%;
+  }
+  
+  nav ul {
+    display: none;
+  }
+
+  nav img {
+    width: 150%;
+  }
+
+  .contactBtn {
+    display: none;
+  }
+  
+  /* ------------------------------ Header ------------------------------ */
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 766px;
+  }
+  
+  .header div {
+    width: 100%;
+    text-align: center;
+    margin: 0 15px 30px 15px;
+  }
+
+  #headerTXT h1 {
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    margin: auto;
+    font-size: 40px;
+  }
+
+  #headerTXT p {
+    width: 100%;
+    color: #6B708D;
+    text-align: center;
+    margin: 30px auto;
+  }
+
+  #headerTXT div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+  }
+
+  .header-A {
+    display: none;
+  }
+  
+  .header-B {
+    display: none;
+  }
+  
+  /* ------------------------------ Banner ------------------------------ */
+
+  .banner {
+    width: 100%;
+    margin: auto;
+  }
+  
+  .bannerCompanies {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 80px;
+    animation: none;
+  }
+
+  .imgCompanies {
+    filter: grayscale(0);
+    width: 50%;
+    margin-left: 0px;
+    margin: auto;
+  }
+
+  #imgNoShow {
+    display: none;
+  }
+
+  /* ------------------------------ Recent Projects ------------------------------ */
+  .recentProjectFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .projectElement {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 100%;
+    height: 523px;
+    margin-bottom: 15px;
+  }
+
+  /* ------------------------------ Reviews ------------------------------ */
+  .clientReview {
+    max-width: 100%;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #292e47;
+    background-image: url("/IronHack-MidTerm/ironhack-midterm/resources/images/testimonial-section/orbit.png");
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    padding: 70px 0 70px 0;
+  }
+  .clientReview h2 {
+    margin: 0px;
+    font-size: 30px;
+  }
+
+  .clientReview p {
+    color: #FFC600;
+    font-size: 30px;
+    font-style: medium;
+  }
+  
+  
+  .eA {
+    display: none;
+  }
+  
+  .eB {
+    display: none;
+  }
+  
+  .eC {
+    display: none;
+  }
+  
+  .eD {
+    display: none;
+  }
+
+  /* ------------------------------ Services ------------------------------ */
+  .allServices {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .serviceElement {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .serviceElement img {
+    width: 60px;
+    margin: 35px 0px 0px 35px;
+    /* border-radius: 80px; */
+    background-color: #ecf6ff;
+    background-size: 100px;
+  }
+
+  .serviceElement h3 {
+    font-size: 1.6rem;
+    text-align: start;
+    margin: 25px;
+  }
+/* ------------------------------ Footer ------------------------------ */
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15px;
+  vertical-align: middle;
+  margin-bottom: 100px;
+}
+
+.footerCircle {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.footerGrid {
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+}
+
+
 }
 
 /* ------------------------------ Hamburguer menu ------------------------------ */
