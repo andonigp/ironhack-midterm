@@ -85,13 +85,13 @@ fetch(`https://jsonplaceholder.typicode.com/posts`, {
     .then((data) => {
       let dataArrayA = data[rndIntA]
       targetAHeader.innerHTML = dataArrayA.title;
-      targetAContent.innerHTML = dataArrayA.body;
+      targetAContent.innerHTML = (dataArrayA.body).slice(0,15);
       let dataArrayB = data[rndIntB]
       targetBHeader.innerHTML = dataArrayB.title;
-      targetBContent.innerHTML = dataArrayB.body;
+      targetBContent.innerHTML = (dataArrayB.body).slice(0,15);
       let dataArrayC = data[rndIntC]
       targetCHeader.innerHTML = dataArrayC.title;
-      targetCContent.innerHTML = dataArrayC.body;
+      targetCContent.innerHTML = (dataArrayC.body).slice(0,15);
       })
     .catch((error) => console.log(error));
 
