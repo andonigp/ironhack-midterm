@@ -19,3 +19,4 @@ function backTop () {
     }
 )} 
 scrollTop.addEventListener("click", backTop)
+

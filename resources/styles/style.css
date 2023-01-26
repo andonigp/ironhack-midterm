@@ -542,7 +542,56 @@ nav ul li a:hover{
 /* -------------------------------------------------------------------------- */
 /* ------------------------------ PROJECT html ------------------------------ */
 /* -------------------------------------------------------------------------- */
+.generalSection {
+  width: 80vw;
+  margin: auto;
+  max-width: 1063px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.generalSection h1 {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 50px;
+}
+
+.generalSection img {
+  object-fit: cover;
+  width: 100%;
+  height: 433px;
+  margin-bottom: 50px;
+}
+
+.generalSection p {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.subtitleSection {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.subtitleSection h3 {
+  font-weight: 400;
+  color: #6c718b;
+}
+
+.subtitleSection h4 {
+  font-weight: 400;
+  color: #6c718b;
+}
+
+.recentProjectFlexProjects {
+  margin-bottom: 50px;
+}
 /* ------------------------------ Project main ------------------------------ */
 
 /* Your CSS code goes here */
@@ -644,7 +693,15 @@ nav ul li a:hover{
 /* ------------------------------ About html ------------------------------ */
 /* ----------------------------------------------------------------------------- */
 
-/* Your CSS code goes here */
+.aboutUsSection {
+  width: 80vw;
+  margin: auto;
+  max-width: 1063px;
+}
+
+.aboutUsSection h1 {
+  margin-bottom: 50px;
+}
 
 /* --------------------------------------------------------------------------- */
 /* ------------------------------ MEDIA QUERIES ------------------------------ */
@@ -895,19 +952,8 @@ nav ul li a:hover{
 /* ------------------------------ Hamburguer menu ------------------------------ */
 
 @media (max-width: 766px) {
-  /* nav ul {
-    list-style: none;
-    display: grid;
-    position: absolute;
-    align-items: flex-end;
-    background-color: #c9c8c9;
-    width: 766px;
-    top: 75px;
-    transform: translateY(-100%);
-    z-index: -1;
-    transition: .6s;
-  } */
 
+  /* ------------------------------ Hamburguer menu ------------------------------ */
   .navbar-toggle {
     display: grid!important;
   }
@@ -955,7 +1001,6 @@ nav ul li a:hover{
     font-weight: 800;
     font-size: 30px;
   }
-
 
 }
 
