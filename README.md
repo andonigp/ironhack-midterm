@@ -130,12 +130,16 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 - [x] Desarrollo de formato responsivo.
 - [ ] Corrección de animación de la página principal.
-- [ ] Push de formulario a DB.
+- [X] Push de formulario a DB.
 - [ ] Pull de contenido de DB para mostrar en Recent Projects.
 
 #### Day Four
 
 ###### Jueves 26, Enero 2023
+- [ ] Pull de contenido de DB para mostrar en Recent Projects.
+- [ ] Terminar sitio de Recent Projects.
+- [ ] Terminar sitio de about.
+
 
 #### Day Five
 

@@ -1,5 +1,5 @@
 /* Crea tu propia lógica para hacer fetch de 3 posts distintos y enseñarlos en la homepage con DOM manipulation */
-
+//  ------------------ HAMBURGUER MENU -----------------
 const hamburguer = document.querySelector("#navbar-toggle")
 const navMenu = document.querySelector("nav ul")
 
@@ -8,7 +8,7 @@ hamburguer.addEventListener("click", () => {
     navMenu.classList.toggle("active");
 })
 
-
+//  ------------------ BackTop -----------------
 const scrollTop = document.querySelector(".backTop")
 function backTop () {
     window.scrollTo({

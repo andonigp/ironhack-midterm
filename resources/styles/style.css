@@ -232,6 +232,7 @@ nav ul li a:hover{
   width: 80vw;
   max-width: 1063px;
   margin: auto;
+  overflow: hidden;
 }
 
 .bannerCompanies {
@@ -239,15 +240,16 @@ nav ul li a:hover{
   justify-content: row;
   align-items: center;
   padding: 30px;
-  animation: scrolling 20s linear infinite;
+  animation: imgMovement 25s linear infinite;
 }
 
-@keyframes scrolling {
+@keyframes imgMovement {
   0% {
+    /* transform: translateY(130vw); */
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-140vw);
+    transform: translateX(-130vw);
   }
 }
 
