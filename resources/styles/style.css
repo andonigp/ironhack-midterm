@@ -29,6 +29,58 @@ body {
 /* ------------------------------ INDEX html ------------------------------ */
 /* ------------------------------------------------------------------------ */
 
+.circle {
+  background-color: #f2f4fcc5;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 12;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.display-none {
+  display: none;
+}
+
+.ring {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  /* background-color: #072AC8; */
+  animation: ring 2s linear infinite;
+}
+
+@keyframes ring {
+  0%{
+    transform: rotate(0deg);
+    box-shadow: 8px 8px 3px #072AC8;
+  }
+  50%{
+    transform: rotate(180deg);
+    box-shadow: 8px 8px 3px #072AC8;
+  }
+  100%{
+    transform: rotate(360deg);
+    box-shadow: 8px 8px 3px #072AC8;
+  }
+}
+
+.ring:before{
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 0 5px #072ac89a;
+}
+
+
 
 
 /* ------------------------------ General ------------------------------ */
@@ -700,6 +752,37 @@ nav ul li a:hover{
 }
 
 .aboutUsSection h1 {
+  margin-bottom: 50px;
+}
+
+.aboutUsSection img {
+  box-shadow: 10px 10px 18px #6B708D;
+  margin-bottom: 50px;
+}
+
+.aboutUsSection img:hover {
+  filter: grayscale(1);
+}
+
+.musicSectionHeader {
+  font-size: 30px;
+}
+
+.musicSection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  margin-bottom: 50px;
+}
+
+.comedySection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
   margin-bottom: 50px;
 }
 
