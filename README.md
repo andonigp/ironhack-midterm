@@ -132,6 +132,8 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 - [ ] Corrección de animación de la página principal.
 - [X] Push de formulario a DB.
 - [ ] Pull de contenido de DB para mostrar en Recent Projects.
+- [x] Scroll top.
+- [x] Hamburguesa menu.
 
 #### Day Four
 
