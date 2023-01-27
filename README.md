@@ -78,6 +78,8 @@ En esta sección se puede incluir información como:
 
 En resumen, la sección "sobre el proyecto" es una excelente manera de brindar a los usuarios y contribuidores una visión general del proyecto y proporcionarles toda la información necesaria para comenzar a trabajar con él.
 
+Se
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Construido Con
@@ -112,7 +114,7 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 - [x] Análisis de estructura del sitio.
 - [x] Esqueleto HTML del sitio.
 - [x] Creación del navBar (HTML / CSS)
-- [ ] Creación del heroSection (HTML / CSS)
+- [x] Creación del heroSection (HTML / CSS)
 - [x] Banner de logos. Falta animación (HTML / CSS)
 
 #### Day Two
@@ -131,21 +133,23 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 - [x] Desarrollo de formato responsivo.
 - [ ] Corrección de animación de la página principal.
 - [X] Push de formulario a DB.
-- [ ] Pull de contenido de DB para mostrar en Recent Projects.
+- [x] Pull de contenido de DB para mostrar en Recent Projects.
 - [x] Scroll top.
 - [x] Hamburguesa menu.
 
 #### Day Four
 
 ###### Jueves 26, Enero 2023
-- [ ] Pull de contenido de DB para mostrar en Recent Projects.
-- [ ] Terminar sitio de Recent Projects.
-- [ ] Terminar sitio de about.
+- [x] Pull de contenido de DB para mostrar en Recent Projects.
+- [x] Terminar sitio de Recent Projects.
+- [x] Terminar sitio de about.
+- [x] Animación de loading.
 
 
 #### Day Five
 
 ###### Viernes 27, Enero 2023
+- [ ] Última revisióan antes de la entrega.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -280,6 +280,20 @@ nav ul li a:hover{
 }
 
 /* ------------------------------ Partners ------------------------------ */
+/* .banner {
+  width: 80vw;
+  max-width: 1063px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.bannerCompanies {
+  display: flex;
+  justify-content: row;
+  align-items: center;
+  padding: 30px;
+} */
+
 .banner {
   width: 80vw;
   max-width: 1063px;
@@ -292,7 +306,7 @@ nav ul li a:hover{
   justify-content: row;
   align-items: center;
   padding: 30px;
-  animation: imgMovement 25s linear infinite;
+  animation: imgMovement 30s linear infinite;
 }
 
 @keyframes imgMovement {
@@ -309,7 +323,6 @@ nav ul li a:hover{
   filter: grayscale(1);
   width: 10rem;
   margin-left:200px;
-  
 }
 
 .imgCompanies:hover {
@@ -989,7 +1002,7 @@ nav ul li a:hover{
     text-align: start;
     margin: 25px;
   }
-  /* ------------------------------ Footer ------------------------------ */
+  /* ------------------------------ Questions ------------------------------ */
   #questions {
     background-color: #ffc600;
     height: 500px;
@@ -1027,6 +1040,12 @@ nav ul li a:hover{
 .footerGrid {
   grid-column-gap: 40px;
   grid-row-gap: 40px;
+}
+
+/* ------------------------------ About ------------------------------ */
+
+.aboutUsSection img {
+  max-width: 100%;
 }
 
 
