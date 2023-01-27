@@ -158,7 +158,7 @@ Presentation Link: [https://docs.google.com/presentation/d/1VhDN51crH2TAIEZT7Dr0
 
 <!-- ACKNOWLEDGMENTS -->
 
-## agradecimientos
+## Agradecimientos
 
  - Agradecimientos:
     - Diego Zito - Lead Teacher
