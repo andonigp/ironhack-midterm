@@ -64,37 +64,24 @@ Tener un archivo README.md bien estructurado y bien documentado también puede s
 
 <img src="./resources/readMe/screenshot.png" alt="Logo" width="100%" height="50%">
 
-La sección "sobre el proyecto" en un archivo README es una sección importante que proporciona información general sobre el objetivo y la funcionalidad del proyecto.
+Ingormación general del proyecto:
 
-En esta sección se puede incluir información como:
-
-- Una descripción breve del proyecto y su propósito
-- Tecnologías utilizadas
-- Funcionalidades principales
-- Instrucciones de instalación y configuración
-- Enlaces a documentación adicional o recursos relacionados con el proyecto
-- Licencia del proyecto
-- Contribuciones de las personas en el proyecto.
-
-En resumen, la sección "sobre el proyecto" es una excelente manera de brindar a los usuarios y contribuidores una visión general del proyecto y proporcionarles toda la información necesaria para comenzar a trabajar con él.
-
-Se
+ - Es un sitio web modelo para una empresa de soluciones tecnologicas llamada Circle. Es un sitio que explica los servicios y proyectos en los que circle participa habitualmente.
+ - Para el desarrollo del sitio se utilizarón lenguajes de programación: HTML, CSS y JavaScript. El proyecto esta respaldado en git y ofrece los previews en vercel.
+ - Las funcionalidades principales son: 
+    - Sitio informativo.
+    - Contact Form.
+    - Páginas secundarias con variabilidad de contenido mediante pull de DB.
+    - Ofrece diferentes tipos de contenidos como: imagenes, videos y música.
+ - El proyecto fue asesorado y revisado por expertos de IronHack (Diego Zito, Carlos Garrido (AKA Jarko), Aleix Abuli)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Construido Con
 
-La sección "construido con" en un archivo README es una sección que proporciona información sobre las tecnologías y herramientas utilizadas para desarrollar el proyecto.
-
-En esta sección se puede incluir información como:
-
-- Lenguajes de programación utilizados
-- Frameworks y bibliotecas utilizadas
-- Herramientas de desarrollo (IDE, control de versiones, etc)
-- Servicios en la nube utilizados (si corresponde)
-- Otros recursos o tecnologías relacionadas con el proyecto.
-
-En resumen, la sección "construido con" es una excelente manera de brindar a los usuarios y contribuidores una compresión de las tecnologías y herramientas utilizadas para desarrollar el proyecto, esto ayuda a entender mejor el proyecto y a los desarrolladores a contribuir de manera efectiva.
+ - Lenguajes de programación: HTML , CSS , JavaScript
+ - Contol de versiones: GitHub, Vercel
+ - Desarrollado localmente con: Microsoft Visual Code.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -149,7 +136,7 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 #### Day Five
 
 ###### Viernes 27, Enero 2023
-- [ ] Última revisióan antes de la entrega.
+- [X] Última revisióan antes de la entrega.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -157,22 +144,15 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 ## Acerca
 
-La sección "sobre mí" en un archivo README es una sección que proporciona información sobre el desarrollador o equipo detrás del proyecto.
+Acerca del equipo de desarrollo:
 
-En esta sección se puede incluir información como:
+  - Andoni Goicoechea Pederzini. andoni.gope@gmail.com
+  - Frontend developer.
+  - Master Big Data Analytics and Technologies.
+  - 5 años de experiencia.
 
-- Nombre y datos de contacto del desarrollador o equipo.
-- Información sobre experiencia laboral o académica relacionada con el proyecto.
-- Enlaces a perfiles en redes sociales o sitios web personales.
-- Otra información relevante que el desarrollador o equipo desee compartir.
-
-En resumen, la sección "sobre mí" es una excelente manera de brindar a los usuarios y contribuidores una idea de quién está detrás del proyecto y cómo pueden ponerse en contacto con ellos si tienen preguntas o comentarios. Es una buena manera de establecer una conexión con la comunidad de desarrolladores y una forma de mostrar la transparencia en el proyecto.
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-Presentation Link: [Insert here your presentation link](insert-link-here)
+Project Link: [https://github.com/andonigp/ironhack-midterm]
+Presentation Link: [https://docs.google.com/presentation/d/1VhDN51crH2TAIEZT7Dr0_zBalO27Kc7Tzdz4vt5kUH0/edit?usp=sharing]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -180,15 +160,11 @@ Presentation Link: [Insert here your presentation link](insert-link-here)
 
 ## agradecimientos
 
-La sección "agradecimientos" en un archivo README es una sección que proporciona reconocimiento a las personas o instituciones que ayudaron en el desarrollo del proyecto.
-
-En esta sección se puede incluir información como:
-
-- Agradecimientos específicos a personas que ayudaron en el desarrollo del proyecto.
-- Agradecimientos a instituciones o organizaciones que proporcionaron apoyo financiero o recursos.
-- Enlaces a proyectos o recursos relacionados que fueron útiles para el desarrollo del proyecto.
-
-En resumen, la sección "agradecimientos" es una excelente manera de agradecer a las personas o instituciones que ayudaron en el desarrollo del proyecto. Esta sección también puede ser útil para dar crédito a los recursos o proyectos relacionados que fueron útiles durante el desarrollo.
+ - Agradecimientos:
+    - Diego Zito - Lead Teacher
+    - Carlos Garrido (Jarko) - Teacher Assistant
+    - Aleix Abuli - Teacher Assistant.
+ - Agradecimiento a IronHack.   
 
 - [Icon Libraries](insert-link-here)
 - [Google Font Libraries](insert-link-here)
@@ -197,26 +173,19 @@ En resumen, la sección "agradecimientos" es una excelente manera de agradecer a
 
 ## Desafío Técnico
 
-La sección "desafío técnico" aunque no es convencional en un proyecto profesional, en nuestro curso dependemos de esta sección en un archivo README para proporcionar información sobre los desafíos técnicos que se enfrentaron durante el desarrollo del proyecto.
+Problemas técnicos:
 
-En esta sección se puede incluir información como:
+ - CSS:
+      - Crear soluciones no generales al sitio y haber trabajado soluciones modulares. 
+      - Solución: Revisión de módulos independientes, lo que garantiza la correcta aplicación de los mismos pero ralentiza el desarrollo del proyecto.
 
-- Problemas técnicos específicos que se encontraron durante el desarrollo del proyecto.
-- Soluciones implementadas para superar estos desafíos.
-- Aspectos del proyecto que aún son un desafío o que requieren mejora continua.
-- Recomendaciones para futuros desarrolladores que trabajen en el proyecto.
+ - Animaciones:
+      - Falta de experiencia para desarrollarlas.    
+      - Solución: Búsqueda de animaciones desarrolladas de manera modular en línea.
 
-En resumen, la sección "desafío técnico" es una excelente manera de brindar a los usuarios y contribuidores una idea de los desafíos técnicos que se enfrentaron durante el desarrollo del proyecto, y cómo se abordaron. Esta sección también puede ser útil para futuros desarrolladores que trabajen en el proyecto, ya que les brinda información valiosa sobre problemas potenciales y soluciones para superarlos.
+## Gran Error
 
-## Grande Error
+ - Mayor error: El mayor error encontrado durante el desarrollo del proyecto se generó en el planteamiento de la estructura de HTML, pensándola como independiente del posterior desarrollo de CSS.
+ - Consecuencias: Como consecuencia hubo que revisar modularmente que el CSS se estuviera aplicando y corregir puntualmente los errores. 
+ - Lecciones aprendidas: De haber tenido en cuenta previamente las implicaciones del desarrollo de CSS habría elegido una estructura de HTML que me permitiera aprovechar de manera global una mayor cantidad de clases.
 
-La sección "grande error" en un archivo README es una sección opcional que proporciona información sobre los errores importantes cometidos durante el desarrollo del proyecto.
-
-En esta sección se puede incluir información como:
-
-- Descripción detallada del error cometido.
-- Consecuencias del error.
-- Soluciones implementadas para corregir el error.
-- Lecciones aprendidas y recomendaciones para evitar errores similares en el futuro.
-
-En resumen, la sección "grande error" es una forma de ser transparente sobre los errores cometidos durante el desarrollo del proyecto. También puede ser útil para otros desarrolladores que trabajen en el proyecto, ya que les brinda información valiosa sobre problemas potenciales y cómo se abordaron.
