@@ -64,15 +64,15 @@ Tener un archivo README.md bien estructurado y bien documentado también puede s
 
 <img src="./resources/readMe/screenshot.png" alt="Logo" width="100%" height="50%">
 
-Ingormación general del proyecto:
+Información general del proyecto:
 
- - Es un sitio web modelo para una empresa de soluciones tecnologicas llamada Circle. Es un sitio que explica los servicios y proyectos en los que circle participa habitualmente.
- - Para el desarrollo del sitio se utilizarón lenguajes de programación: HTML, CSS y JavaScript. El proyecto esta respaldado en git y ofrece los previews en vercel.
+ - Es un sitio web modelo para una empresa de soluciones tecnológicas llamada Circle. Es un sitio que explica los servicios y proyectos en los que circle participa habitualmente.
+ - Para el desarrollo del sitio se utilizaron lenguajes de programación: HTML, CSS y JavaScript. El proyecto está respaldado en git y ofrece los previews en vercel.
  - Las funcionalidades principales son: 
     - Sitio informativo.
     - Contact Form.
     - Páginas secundarias con variabilidad de contenido mediante pull de DB.
-    - Ofrece diferentes tipos de contenidos como: imagenes, videos y música.
+    - Ofrece diferentes tipos de contenidos como: imágenes, videos y música.
  - El proyecto fue asesorado y revisado por expertos de IronHack (Diego Zito, Carlos Garrido (AKA Jarko), Aleix Abuli)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -177,7 +177,7 @@ Problemas técnicos:
 
  - CSS:
       - Crear soluciones no generales al sitio y haber trabajado soluciones modulares. 
-      - Solución: Revisión de módulos independientes, lo que garantiza la correcta aplicación de los mismos pero ralentiza el desarrollo del proyecto.
+      - Solución: Revisión de módulos independientes, lo que garantiza la correcta aplicación de los mismos, pero ralentiza el desarrollo del proyecto.
 
  - Animaciones:
       - Falta de experiencia para desarrollarlas.    
